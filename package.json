@@ -3,7 +3,7 @@
 	"displayName": "a2i2a",
 	"description": "快速把apidoc接口文档的数据生成typescript的interface 和 接口文件 🚀 🚀 🚀",
 	"publisher": "fyang",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "./dist/extension.js",
 	"engines": {
 		"vscode": "^1.51.0"
