@@ -6,6 +6,7 @@ export default async function createFile(
   type: 'type' | 'api'
 ) {
   const uri = await vscode.window.showSaveDialog({
+    saveLabel: type === 'api' ? '保存接口文件' : '保存类型文件',
     filters: {
       // eslint-disable-next-line @typescript-eslint/naming-convention
       TypeScript: ['ts', 'tsx'],
