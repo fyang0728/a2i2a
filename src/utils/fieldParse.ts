@@ -11,7 +11,7 @@ export default function fieldParse(fileds: any, prefixName: string) {
   const res = arrayToJson(newFileds);
   const response = jsonc.typeofJsonc(JSON.stringify(res), '', {
     prefix: prefixName,
-    rootFlags: 1,
+    rootFlags: 0,
     disallowComments: false,
   });
   return response;
